@@ -17,7 +17,7 @@ public class Poker {
                     k = RandomGenerator.getDefault().nextInt(0, 13);
                     count[k] += 1;
                 }
-                System.out.print(deck[k]);
+                System.out.print(deck[k] + " ");
             }
             System.out.println();
         }
