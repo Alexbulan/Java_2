@@ -8,13 +8,6 @@ public class MathFunc implements MathCalculable{
     }
 
     @Override
-    public double exponentiation(double num, int n) {
-        double res = 1;
-        for(int i = 1; i < n; i++) res *= num;
-        return res;
-    }
-
-    @Override
     public double moduleOfComplexNumber(int a, int b) {
         return (exponentiation(a, 2) + exponentiation(b, 2)) * 0.5;
     }
