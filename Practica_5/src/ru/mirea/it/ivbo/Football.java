@@ -37,7 +37,8 @@ public class Football {
             @Override
             public void actionPerformed(ActionEvent e) {
                 milan++;
-                winner = "AC Milan";
+                if(milan > real)
+                    winner = "AC Milan";
                 update();
                 }
         });
@@ -45,7 +46,8 @@ public class Football {
             @Override
             public void actionPerformed(ActionEvent e) {
                 real++;
-                winner = "Real Madrid";
+                if(milan < real)
+                    winner = "Real Madrid";
                 update();
             }
         });
