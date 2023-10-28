@@ -39,5 +39,7 @@ public class Address {
         System.out.println(address1);
         Address address2 = new Address("Russia, Tyumen, Lotoshino, Lenin Passage, 1, -, 100", false);
         System.out.println(address2);
+        Address address3 = new Address("Russia, Moscow, Moscow, Vernadsky avenue, 86, 3, 211", false);
+        System.out.println(address3);
     }
 }

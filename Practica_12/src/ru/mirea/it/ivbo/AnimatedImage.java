@@ -17,7 +17,7 @@ public class AnimatedImage {
         while (true) {
             label.setIcon(new ImageIcon("C:/Users/vladi/Java 2c/Java_RTU_MIREA/frame/"+ (image % 13) + ".png"));
             image += 1;
-            TimeUnit.MICROSECONDS.sleep(600000);
+            TimeUnit.MICROSECONDS.sleep(360000);
         }
     }
 }
