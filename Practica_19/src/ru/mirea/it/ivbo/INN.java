@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class INN {
     static boolean isCorrectINN(String INN){
-        return INN.matches("^(?=.*\\d).{12}$");
+        return INN.matches("^(?=.*\\d).{10,12}$");
     }
     static boolean isCorrectFIO(String FIO){
         return FIO.matches("^(?=.*[a-zA-Z]).{3,50}$");
