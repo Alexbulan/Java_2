@@ -1,0 +1,29 @@
+package ru.mirea.it.ivbo;
+
+public class ArrayQueue {
+    private final ArrayQueueModule queue;
+
+    public ArrayQueue() {
+        this.queue = new ArrayQueueModule();
+    }
+
+    public Object dequeue() {
+        return queue.dequeue();
+    }
+
+    public Object element() {
+        return queue.element();
+    }
+
+    public void enqueue(Object obj) {
+        queue.enqueue(obj);
+    }
+
+    public boolean isEmpty() {
+        return queue.isEmpty();
+    }
+
+    public void clear() {
+        queue.clear();
+    }
+}
